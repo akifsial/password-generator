@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'poppins';
+}
+
+.main{
+    background-color: #011F3C;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.random-number-generator{
+    margin-left: 200px;
+}
+
+.random-number-generator h1{
+    font-weight: 500
+}
+
+.random-number-generator h1:nth-child(2){
+    color: #0A865F;
+    border-bottom: 4px solid #0A865F;
+    width: fit-content;
+}
+
+.random-number-generator #random-inp {
+    width: 500px;
+    outline: none;
+    padding: 20px;
+    color: #000000;
+    margin-top: 30px;
+    border-radius: 6px;
+    /* font-size: px; */
+}
+
+.input-fields button {
+    outline: none;
+    padding: 20px;
+    color: #000000;
+    margin-top: 30px;
+    border-radius: 6px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    margin-left: -60px;
+    cursor: pointer;
+
+}
+
+.input-fields button i{
+    color: #0A865F;
+    
+}
+
+.input-fields{
+    display: flex;
+}
+
+.random-number-generator > button{
+    color: rgb(255, 255, 255);
+    background-color: #018251;
+    font-weight: 100;
+    padding: 15px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+
+
+.random-number-generator > button i{
+    font-size: 18px;
+    margin-right: 5px;
+}
